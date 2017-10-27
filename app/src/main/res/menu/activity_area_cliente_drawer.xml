@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Solicitar"
+            android:title="Solicitar empréstimo" />
+        <item
+            android:id="@+id/nav_Confirmar"
+            android:title="Efetivar empréstimo" />
+        <item
+            android:id="@+id/nav_MeusEmprestimos"
+            android:title="Meus empréstimos" />
+        <item
+            android:id="@+id/nav_Logoff"
+            android:title="Efetuar logoff" />
+    </group>
+
+</menu>

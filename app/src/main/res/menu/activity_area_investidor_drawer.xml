@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_SolicitarInv"
+            android:title="Investir" />
+        <item
+            android:id="@+id/nav_MeusInvestimentos"
+            android:title="Meus investimentos" />
+        <item
+            android:id="@+id/nav_MinhasSolicitacoes"
+            android:title="Minhas solicitações" />
+        <item
+            android:id="@+id/nav_Logoff"
+            android:title="Efetuar logoff" />
+    </group>
+
+</menu>
